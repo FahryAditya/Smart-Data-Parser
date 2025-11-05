@@ -1,0 +1,31 @@
+name: smart_data_parser
+description: A smart Flutter app to parse student data with animation and local storage
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Font dan UI
+  google_fonts: ^6.2.1
+
+  # Akses file lokal
+  path_provider: ^2.1.3
+
+  # JSON encoder/decoder
+  flutter_json: ^0.0.4
+
+  # Untuk animasi tambahan (opsional)
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
