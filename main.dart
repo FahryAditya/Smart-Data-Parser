@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:io';
@@ -197,7 +198,7 @@ class _DataParserScreenState extends State<DataParserScreen> with TickerProvider
       
     } catch (e) {
       // Tampilkan pesan user-friendly
-      _showErrorSnackbar('Gagal memuat data (cek izin file atau format).');
+      _showErrorSnackbar('Selamay Datang Di Smart Data ');
       setState(() {
         _studentData = [];
         _updateStatistics();
